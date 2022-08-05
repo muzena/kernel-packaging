@@ -1,0 +1,17 @@
+Source: linux-generic-5.19
+Section: devel
+Priority: optional
+Maintainer: Mark Boddington <launchpad@badpenguin.co.uk>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.2
+
+Package: linux-generic-5.19
+Architecture: amd64
+Depends: linux-headers-5.19-051900-generic, linux-image-unsigned-5.19-051900-generic, linux-modules-5.19-051900-generic
+Multi-Arch: foreign
+Description: Meta-package which will always depend on the latest packages in a mainline series.
+  This meta package will depend on the latest kernel in a series (eg 5.12.x) and install the
+  dependencies for that kernel.
+  .
+  Example: linux-generic-5.12 will depend on linux-image-unsigned-5.12.x-generic,
+  linux-modules-5.12.x-generic, linux-headers-5.12.x-generic and linux-headers-5.12.x

@@ -1,0 +1,6 @@
+linux-generic-5.19 (5.19) focal; urgency=low
+
+  Metapackage for Linux 5.19.x
+  Mainline build at commit: v5.19
+
+ -- Mark Boddington <launchpad@badpenguin.co.uk>  Wed, 03 Aug 2022 14:03:41 +0000
