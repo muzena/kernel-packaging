@@ -1,4 +1,4 @@
-linux-5.19 (5.19-051900) focal; urgency=low
+linux (5.19-051900) focal; urgency=low
 
   Mainline build at commit: v5.19
 
